@@ -1,0 +1,16 @@
+#panels-container {
+	/* width: 40px !important; */
+	border: 0 !important;
+}
+
+#panels-container.left #panel_switch {
+	box-shadow: none !important;
+}
+
+#switch {
+	padding-top: 0 !important;
+}
+
+#panels-container.left.button, #panels-container.left:not(.switcher) {
+	/* border-right: 1px solid #535353 !important; */
+}

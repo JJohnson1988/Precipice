@@ -1,0 +1,16 @@
+.below .OmniDropdown {
+    /* padding-top: 30px !important; */
+    top: -2px;
+}
+
+/*
+.OmniDropdown {
+    left: 1px !important;
+    right: 1px !important;
+}
+*/
+
+/* fixes weird mail search box height inconsistency upon typing text */
+.SearchField .searchfield-input {
+    height: 24px !important;
+}

@@ -1,0 +1,3 @@
+.color-behind-tabs-on .tab.active + .tab-group-indicator .tab-indicator.active {
+    background-color: unset !important;
+}

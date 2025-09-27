@@ -1,0 +1,8 @@
+.tabs-top .tab-position .tab:not(.tab-in-accordion):not(.tab-accordion) {
+	border-radius: var(--radiusHalf) !important;
+}
+
+.tabs-top .tab.active:not(.marked):not(.tab-mini):not(.tab-in-accordion):after,
+.tabs-top .tab.active:not(.marked):not(.tab-mini):not(.tab-in-accordion):before {
+	display: none !important;
+}

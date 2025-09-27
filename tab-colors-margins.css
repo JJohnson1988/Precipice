@@ -1,0 +1,64 @@
+.tabs-top:not(.density-on) #tabs-tabbar-container:not(:has(#tabs-subcontainer)) #tabs-container .tab-position .tab.active, .tabs-bottom:not(.density-on) #tabs-tabbar-container:not(:has(#tabs-subcontainer)) #tabs-container .tab-position .tab.active, .tabs-top:not(.density-on) #tabs-subcontainer .tab-position .tab.active, .tabs-bottom:not(.density-on) #tabs-subcontainer .tab-position .tab.active {
+	height: initial;
+}
+
+.tabs-top.address-top#browser.win:not(.fullscreen, .disable-titlebar) #header {
+	min-height: calc(34px / var(--uiZoomLevel));
+}
+
+#browser:not(.alt-tabs) #tabs-container .tab:not(.tab-mini) .close {
+	margin-right: 4px;
+}
+
+.tabs-top .tab-position .tab:not(.active) {
+	margin-bottom: 0 !important;
+}
+
+.tabs-top:not(.density-on) .tab, .tabs-bottom:not(.density-on) .tab {
+    max-width: calc(var(--Width) - 2px) !important;
+}
+
+.tab:not(.active) {
+	border: 1px solid transparent !important;
+}
+
+.tab.active {
+	background-color: #3f3f3f !important;
+	border: 1px solid #4a4a4a !important;
+	color: #fff !important;
+}
+
+.tab:not(.active):hover {
+	background-color: #2b2b2b !important;
+}
+
+.tab-position .tab .title {
+	line-height: 20px !important;
+	/* margin-top: 1px !important; */
+}
+
+.address-top .mainbar > .toolbar-mainbar {
+	border-bottom: 0 !important;
+}
+
+.toolbar-tabbar > .button-toolbar > button, .toolbar-tabbar > .toolbar-group > .button-toolbar > button {
+	margin-bottom: -1px !important;
+}
+
+.mainbar > .toolbar-mainbar {
+	/* height: 40px !important; */
+	margin-top: 1px !important;
+}
+
+.tabs-top .vivaldi {
+	margin-top: 7px !important;
+}
+
+.tabs-top #tabs-container .toolbar-tabbar-before:empty, .tabs-top #tabs-container .toolbar-tabbar-after:empty,
+.tabs-bottom #tabs-container .toolbar-tabbar-before:empty, .tabs-bottom #tabs-container .toolbar-tabbar-after:empty {
+	min-width: initial !important;
+}
+
+.tabs-top #tabs-container .resize, .tabs-bottom #tabs-container .resize {
+	margin-right: 2px !important;
+}

@@ -1,0 +1,88 @@
+#titlebar {
+  height: 100%;
+}
+
+.maximized.linux .topmenu {
+  margin-top: 4px;
+}
+
+/* menu button */
+.vivaldi {
+  left: 4px !important;
+  top: -3px !important;
+  padding: 3px 4px !important;
+  width: auto;
+}
+
+.vivaldi .expand-arrow {
+  display: none;
+}
+
+#tabs-tabbar-container:not(.none).top {
+  background: #202020 !important;
+  padding-top: 4px !important;
+  height: 30px !important;
+  /* padding-bottom: 1px !important; */
+}
+
+#tabs-container:not(.none).top {
+  /* margin-left: 38px; */
+  margin-left: 34px;
+  padding-left: 4px !important;
+  /* margin-right: 140px !important; */
+}
+
+.horizontal-menu #tabs-container:not(.none).top {
+  padding-left: 8px !important;
+  padding-right: 7px !important;
+}
+
+.alt #tabs-container:not(.none).top {
+  padding-left: 90px !important;
+  padding-right: 33px !important;
+}
+
+.tab:not(.active) {
+  background: none !important;
+}
+
+.tab.highlighted:not(.active) {
+  background: white !important;
+}
+
+.tab-position .tab .tab-header {
+  /* flex: 0 0 32px; */
+  padding-bottom: 2px;
+  padding-left: 6px;
+  padding-right: 1px;
+}
+
+.close {
+  background: none;
+  margin-top: 0;
+}
+
+.sync-and-trash-container {
+  position: relative;
+  top: -1px;
+}
+
+#header > #titlebar > .window-buttongroup {
+  /* right: 8px !important; */
+  top: 0 !important;
+  height: 100%;
+  align-items: center;
+}
+
+.button-toolbar.newtab {
+  /* margin-left: 2px; */
+  /* margin-top: -2px; */
+}
+
+.button-toolbar > button {
+  border-radius: var(--radiusHalf) !important;
+}
+
+.tab-audio {
+  margin-top: -1px;
+}

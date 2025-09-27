@@ -1,0 +1,13 @@
+/*
+.SearchField .SearchEngineSelect-Icon ~ .searchfield-input {
+	padding-left: 4px;
+}
+*/
+
+.UrlBar-UrlFieldWrapper, .vivaldi-searchfield.searchfield-input {
+	margin-bottom: 1px !important;
+}
+
+.SearchField .SearchEngineSelect-Icon {
+	margin-right: 8px !important;
+}

@@ -1,0 +1,45 @@
+/* Larger tab width workaround -- problematic until Vivaldi implements better tab width sizes or someone has a JS solution similar to VivaldiHooks */
+
+#tabs-container.top .tab-strip {
+	display: flex !important;
+	max-width: calc(100vw - 265px);
+	overflow-x: hidden !important;
+	-webkit-app-region: no-drag !important;
+}
+
+#tabs-container.top .tab-strip span {
+	flex: 0 1 200px !important;
+	display: flex !important;
+}
+
+#tabs-container.top .tab-position {
+	flex: 0 1 200px !important;
+	position: relative !important;
+	left: auto !important;
+	top: auto !important;
+	/* height: 30px !important; */
+	--PositionX: inherit !important;
+	--Width: inherit !important;
+	max-width: 200px;
+}
+
+#tabs-container.top .tab-position .tab .favicon,
+#tabs-container.top .tab-position .tab .close {
+	flex: 0 0 18px !important;
+}
+
+#tabs-container.top .tab-position .tab .title {
+	flex: 1 0 calc(100% - 55px) !important;
+}
+
+#tabs-container.top .newtab {
+	position: relative !important;
+	left: auto !important;
+	top: auto !important;
+}
+
+/* Fix small audio playing icon in tabs as a result of the wider tabs workaround */
+
+.audioicon {
+	transform: scale(1);
+}

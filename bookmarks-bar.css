@@ -1,0 +1,9 @@
+.bookmark-bar {
+  height: 30px;
+  padding-bottom: 2px;
+  padding-left: 4px;
+}
+
+.bookmarkbarItem {
+  border-radius: 5px !important;
+}

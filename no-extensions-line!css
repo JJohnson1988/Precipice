@@ -1,0 +1,8 @@
+.toolbar-mainbar .toolbar-extensions {
+	background: none !important;
+}
+
+.address-top .mainbar > .toolbar-mainbar .toolbar-extensions:before,
+.address-top .mainbar > .toolbar-mainbar:before {
+	height: 0 !important;
+}

@@ -1,0 +1,11 @@
+.mainbar {
+	/* background: #202020 !important; */
+	/* border-bottom: 1px solid #535353 !important; */
+	border-bottom: 0 !important;
+	padding: 1px 0 !important;
+}
+
+/* fix offset in input fields */
+input[type="search"] {
+  padding: 5px 3px 5px 12px;
+}

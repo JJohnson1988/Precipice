@@ -1,0 +1,4 @@
+.fullscreen.tabs-at-edge.tabs-top:not(.popup, .horizontal-menu)#browser.win .window-buttongroup button,
+.maximized.tabs-at-edge.tabs-top:not(.popup, .horizontal-menu)#browser.win .window-buttongroup button {
+	height: inherit;
+}
