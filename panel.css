@@ -1,0 +1,23 @@
+#panels-container {
+	border: 0 !important;
+}
+
+#panels-container.icons {
+	width: 38px !important;
+}
+
+#panels-container.left #panel_switch {
+	box-shadow: none !important;
+}
+
+#switch {
+	flex: 0 0 38px !important;
+	max-width: 38px !important;
+	/* margin: 0 2px !important; */
+	padding-top: 0 !important;
+	width: 38px !important;
+}
+
+#panels-container.left.button, #panels-container.left:not(.switcher) {
+	/* border-right: 1px solid #535353 !important; */
+}
